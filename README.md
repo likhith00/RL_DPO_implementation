@@ -9,7 +9,7 @@ Direct Preference Optimization (DPO) is a machine learning technique used to opt
 This repository contains code for finetuning the TheBloke/OpenHermes-2-Mistral-7B-GPTQd on HuggingFaceH4/ultrafeedback_binarized dataset, which contains the corresponding chosen and rejected responses for the given prompt
 
 ### Libraries Used
-- `transformers`: For utilizing and fine-tuning the Roberta-base model.
+- `transformers`: For utilizing and the Roberta-base model.
 - `huggingface-hub`: For accessing the model and tokenizer from the Hugging Face model hub.
 - `peft`: for model pruning and quantization
 - `bitsandbytes`: efficient memory usage and computation
